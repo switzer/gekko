@@ -23,7 +23,7 @@ var BudFox = function(config) {
   Readable.call(this, {objectMode: true});
 
   // BudFox internal modules:
-  
+
   this.heart = new Heart;
   this.marketDataProvider = new MarketDataProvider(config);
   this.candleManager = new CandleManager;
